@@ -3,6 +3,10 @@ function answerQuery(query) {
   if (query.indexOf("rain") != -1 || query.indexOf("sun") != -1 || query.indexOf("weather") != -1)
     return "I do not care too much about weather, I'm locked inside a data center.";
   return "Sorry Dave, I cannot do that."
+  if (query.indexOf("tea") !=-1)
+  	return "Yes please, i would love some tea.";
+  if (query.indexOf("biscuits") != -1)
+  	return "Yes please, who doesn't love biscuits!";
 }
 
 
