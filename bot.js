@@ -5,6 +5,10 @@ function answerQuery(query) {
   else if (query.indexOf("football") != -1 || query.indexOf("footie") != -1)
     return "I'm indifferent to football as I have no legs.";
   return "Sorry Dave, I cannot do that."
+  if (query.indexOf("tea") !=-1)
+  	return "Yes please, i would love some tea.";
+  if (query.indexOf("biscuits") != -1)
+  	return "Yes please, who doesn't love biscuits!";
 }
 
 
